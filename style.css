@@ -1,10 +1,17 @@
-*{
+body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    text-align: left;
+    padding-left: 40%;
 }
-.inputBox{
+input{
     border-radius: 3px;
     border-width: 1.5px;
+    text-transform: uppercase;
+}
+button{
+    color: black;
+    background-color: white;
+    border-radius: 4px;
 }
 #outputLetter{
     font-size: 40px;
