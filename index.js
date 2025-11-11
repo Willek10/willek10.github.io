@@ -5,6 +5,10 @@ const output = document.getElementById("output");
 const outputLetter = document.getElementById("outputLetter");
 
 function timeDiff(t1) {
+    const hour = t1.slice(0, 2);
+    const minute = t1.slice(2);
+    t1 = `${hour}:${minute}`
+
     const today = new Date().toISOString().split("T")[0];
 
     const d1 = new Date(`${today}T${t1}Z`);
